@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "category": "Pharmaceutical Reference Standards",
+    "name": "Isavuconazole",
+    "CASNumber": "241479-67-4",
+    "molecularFormula": "C22H17F2N5OS",
+    "molecularWeight": 437.47,
+    "image": "asset/productcat/Pharmaceutical_Reference_Standards.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Stable Isotope labeled Standards",
+    "name": "Eltrombopag 13C4",
+    "CASNumber": "1217230-31-3",
+    "molecularFormula": "C2113C4H22N4O4",
+    "molecularWeight": 446.44,
+    "image": "asset/productcat/Stable_Isotope_labeled_Standards.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Metabolites & Glucuronides",
+    "name": "Eliglustat Genz-399240",
+    "molecularFormula": "C21H30N2O6",
+    "molecularWeight": 406.47,
+    "image": "asset/productcat/Metabolites_&_Glucuronides.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Pharmaceutical impurity Standards",
+    "name": "Desoxo Apremilast Impurity",
+    "CASNumber": "2487573-08-8",
+    "molecularFormula": "C45H48N4O14S2",
+    "molecularWeight": 933.01,
+    "image": "asset/productcat/Pharmaceutical_Impurity_Standards.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Active Pharmaceutical Ingredient",
+    "name": "Vibegron",
+    "CASNumber": "1190389-15-1",
+    "molecularFormula": "C₂₆H₂₈N₄O₃",
+    "molecularWeight": 444.53,
+    "image": "asset/productcat/Active_Pharmaceutical_Ingredient.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Pharmaceutical Intermediates",
+    "name": "Isoxepac",
+    "CASNumber": "55453-87-7",
+    "molecularFormula": "C₁₆H₁₂O₄",
+    "molecularWeight": 268.26,
+    "image": "asset/productcat/Pharmaceutical_Intermediates.jpg"
+  }
+]

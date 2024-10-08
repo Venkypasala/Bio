@@ -1,0 +1,33 @@
+@import "./login";
+@import "./header";
+@import "./home";
+@import "./corporate";
+@import "./services";
+@import "./finalBar";
+@import "./contact";
+@import "./form";
+@import "./products";
+@import "./enquiryList";
+@import "./admin";
+@import "./detailPage";
+@import "./tooltip";
+@import "./addnew";
+@import "./categoryAdmin";
+@import "./searchmodal";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif !important;
+}
+
+.react-select__control {
+  border-radius: 13px !important;
+  border: none !important;
+  height: 48px;
+  width: 250px;
+}
+
+.react-select__control:hover {
+  border: 1px solid #a3238e !important;
+}

@@ -1,0 +1,93 @@
+.main-login {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.login {
+  width: 100vw;
+  position: fixed;
+  // overflow: hidden;
+  background-color: black;
+  text-align: center;
+  .background-img {
+    //margin-left: 10rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    //transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+  }
+
+  .login-container {
+    background-color: #ffffff;
+    height: 46%;
+    width: 35%;
+    //position: absolute;
+    top: 15%;
+    right: 60%;
+    margin-top: 10rem;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  .input-group-btn{
+    background-color: transparent;
+    border: transparent;
+    //justify-content: center;
+    //margin-top: 1rem;
+    //height: 3rem;
+    transform: translate(-154%, 128%);
+    z-index: 90;
+    position: absolute;
+  
+  }
+  .bio-logo {
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    cursor: pointer;
+  }
+  .login-submit-btn {
+    border-radius: 25px;
+    padding: 7px 25px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #f6913a;
+    border: 2px solid #f6913a;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .login-submit-btn.disabled{
+    border-radius: 25px;
+    padding: 7px 25px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #ccc;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .login-submit-btn:not(.disabled):hover {
+    color: white;
+    background-image: linear-gradient(to right, #f6913a, #a3238e);
+    border: 2px solid transparent; 
+  }
+  hr {
+    border: 1px solid #a3238e;
+    margin: 1rem 6rem;
+  }
+
+  ::placeholder {
+    color: rgb(209 209 209);
+    font-size: 15px;
+    padding-left: 1rem !important;
+    //font-weight: bold;
+  }
+  .remember-me:hover {
+    color: #a3238e;
+    cursor: pointer;
+  }
+}
+
+

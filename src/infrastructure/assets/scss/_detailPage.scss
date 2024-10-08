@@ -1,0 +1,117 @@
+.detail-product-name {
+  margin-top: -14rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #a3238e;
+  font-size: 25px;
+  margin-left: 5rem;
+}
+.image-div-detail {
+  border-radius: 25px;
+  border: 1.5px solid #a3238e;
+  height: 15rem;
+  width: 27rem;
+}
+.detail-category {
+  margin-top: -13rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  font-size: 23px;
+}
+.details {
+  font-size: 17px;
+  font-weight: bold;
+  color: #f6913a;
+}
+.quantity-box-detail {
+  // margin-top: 4rem;
+  margin-left: 20rem;
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  height: auto;
+  width: auto;
+  border-radius: 13px;
+}
+.section2-detail {
+  background: #f7f7f7;
+  // padding-left: 5rem;
+  // padding-right: 5rem;
+  // padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section3-details {
+  background: #efefef;
+}
+::placeholder {
+  padding-left: 1rem !important;
+  color: #858585;
+}
+.checkbox {
+  display: inline-block;
+  // right: 22rem;
+  // top: 1.2rem;
+  cursor: pointer;
+  transform: translate(8%, 33%);
+}
+.check {
+  // position: absolute;
+  margin-top: -2.2rem;
+  // margin-left:2rem ;
+  width: 20px;
+  height: 20px;
+  background-color: black !important; /* Checkbox background color */
+  border-radius: 3px;
+}
+.check-btn:checked + .check {
+  background-color: black; /* Checkbox background color when checked */
+}
+
+.check::after {
+  content: "";
+  // position: absolute;
+  display: none;
+  // left: 7px;
+  // top: 2.1px;
+  width: 5px;
+  height: 10px;
+  border: solid;
+  border-color: #32ff03;
+  border-width: 0 2px 2px 0;
+  // transform: rotate(45deg);
+}
+
+.check.checked::after {
+  display: block;
+}
+.Draft {
+  margin-left: 2rem;
+  // margin-top: -4rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Draft:hover {
+  color: #f6913a;
+}
+.detail-button {
+  border-radius: 25px;
+  font-size: 13px;
+  width: auto;
+  height: fit-content;
+  border: 2px solid #f6913a;
+  font-weight: bold;
+  margin-right: 3rem;
+  color: #f6913a;
+  background-color: transparent;
+  margin-top: 5px;
+}
+.detail-button:hover {
+  background-image: linear-gradient(to right, #f6913a, #a3238e);
+  border: transparent;
+  color: white;
+  font-size: 13px;
+  width: auto;
+  height: fit-content;
+  font-weight: bold;
+  margin-right: 3rem;
+  margin-top: 5px;
+}

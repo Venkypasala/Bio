@@ -1,0 +1,77 @@
+.main-service {
+  height: 100vh;
+  width: 100%;
+}
+.navbar-section {
+  z-index: 100;
+}
+.web-closer-section {
+  background: #efefef;
+  z-index: 100;
+}
+.section-service {
+  background: #efefef;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+}
+.closeButton {
+  z-index: 40;
+}
+.cancel-button {
+  position: absolute;
+  transform: translate(0rem, 1rem);
+  height: 2.5rem;
+  width: 3rem;
+  top: 0rem;
+}
+.flaskimg11 {
+  height: 5rem;
+  width: 7rem;
+  left: 2.2rem;
+  position: relative;
+  top: -21rem;
+}
+.flaskimg21 {
+  height: 5rem;
+  width: 7rem;
+  position: relative;
+  top: 26rem;
+  left: 72rem;
+}
+.flaskimg31 {
+  height: 5rem;
+  width: 7rem;
+  left: -11rem;
+  position: relative;
+  top: 50rem;
+}
+.sheimage {
+  object-fit: cover;
+}
+.serviceform-submit-btn {
+  border-radius: 25px;
+  padding: 7px 38px;
+  margin-top: 2rem;
+  background-color: transparent;
+  color: #f6913a;
+  border: 2px solid #f6913a;
+  font-weight: bold;
+  font-size: 14px;
+  height: 2.4rem;
+}
+.serviceform-submit-btn.disabled {
+  background-image: #ccc;
+  color: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 7px 38px;
+  margin-top: 2rem;
+}
+.serviceform-submit-btn:not(.disabled):hover {
+  color: #f6913a;
+  border: 2px solid #f6913a;
+}
+
+.custom_icon_color {
+  fill: red !important;
+}

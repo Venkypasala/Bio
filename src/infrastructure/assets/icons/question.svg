@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_1460" data-name="Group 1460" transform="translate(-444.355 -318.355)">
+    <path id="Icon_awesome-question" data-name="Icon awesome-question" d="M7.617,0A6.388,6.388,0,0,0,1.942,3a.792.792,0,0,0,.171,1.084L3.535,5.164a.791.791,0,0,0,1.1-.137C5.458,3.992,6.07,3.4,7.36,3.4c1.014,0,2.269.653,2.269,1.636,0,.744-.614,1.125-1.615,1.687C6.846,7.375,5.3,8.19,5.3,10.228v.323a.791.791,0,0,0,.791.791h2.39a.791.791,0,0,0,.791-.791v-.19c0-1.413,4.13-1.472,4.13-5.3C13.4,2.185,10.416,0,7.617,0Zm-.33,12.314A2.284,2.284,0,1,0,9.57,14.6,2.287,2.287,0,0,0,7.286,12.314Z" transform="translate(453.754 326.915)" fill="#a3238e"/>
+    <g id="Ellipse_27" data-name="Ellipse 27" transform="translate(444.355 318.355)" fill="none" stroke="#a3238e" stroke-width="3">
+      <circle cx="17" cy="17" r="17" stroke="none"/>
+      <circle cx="17" cy="17" r="15.5" fill="none"/>
+    </g>
+  </g>
+</svg>

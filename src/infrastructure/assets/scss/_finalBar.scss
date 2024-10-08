@@ -1,0 +1,81 @@
+.fifthdiv {
+  background-color: #710060;
+  height: 25rem;
+  // position: relative;
+  .bio-logo {
+    width: 3rem;
+    height: 3rem;
+    // position: absolute;
+    transform: translate(2rem, -6rem);
+  }
+  .bio-text {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    transform: translate(6rem, -5rem);
+  }
+  .colstyle {
+    position: absolute;
+    transform: translate(62rem, -5rem);
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .rowstyle > * {
+    position: absolute;
+    transform: translate(6rem, 6rem);
+  }
+  .phone {
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    position: absolute;
+    transform: translate(31rem, -5rem);
+  }
+  .email {
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    position: absolute;
+    transform: translate(31rem, -1rem);
+  }
+  .location {
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    position: absolute;
+    transform: translate(31rem, 2.5rem);
+  }
+  .p2-phone {
+    font-size: 15px;
+    position: absolute;
+    transform: translate(31.3rem, -3.5rem);
+  }
+  .p2-email {
+    font-size: 15px;
+    position: absolute;
+    transform: translate(31.3rem, 0.5rem);
+  }
+  .p2-location {
+    font-size: 15px;
+    position: absolute;
+    transform: translate(31.3rem, 4rem);
+  }
+  .locationimg {
+    width: 17rem;
+    height: 11rem;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(61rem, -3rem);
+  }
+}
+.copyrights-style {
+  color: white;
+}
